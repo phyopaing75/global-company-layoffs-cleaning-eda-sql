@@ -60,7 +60,6 @@ MySQL · CTEs · Window functions (`ROW_NUMBER`, `DENSE_RANK`, `SUM OVER`) · Se
 
 - File: `global_company_layoffs.csv` (2,361 rows, 9 columns: company, location, industry, total_laid_off, percentage_laid_off, date, stage, country, funds_raised_millions)
 - Period covered: 11 March 2020 to 6 March 2023
-- Source: *[add the original dataset link here]*
 
 **Limitation:** Cleaning removes only rows where both the layoff count and the percentage are missing. Rows with a missing layoff count but a known percentage remain, so all totals are lower bounds.
 
